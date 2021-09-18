@@ -1,0 +1,544 @@
+
+#see{
+
+background: linear-gradient(110deg, #33cc99 20%, #0D6EFD 20%);
+
+}
+
+p{
+
+font-family: 'Roboto Mono', monospace;
+
+
+}
+
+#name{
+
+font-size:100%;
+margin-right : 50px;
+
+}
+
+#bus{
+
+font-size:50%;
+
+}
+
+#all {
+
+background-color : #33cc99;
+
+}
+
+
+#canleft {
+
+
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+
+
+
+}
+
+#everyleft {
+
+background-color: #e6ebf2;
+
+}
+
+#hmm {
+
+margin-left: 100px;
+
+}
+
+#nav-me1 {
+
+color : black;
+font-size : 130%;
+font-family: 'Urbanist', sans-serif;
+font-weight: bold;
+}
+
+#offcanvasNavbarDropdown{
+
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+
+
+}
+
+
+
+#nav-me2 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+#nav-me3 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+#nav-me4 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+/* #contactus {
+margin : 10px;
+margin-left : auto;
+height : 60px;
+border-radius : 30%;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  #contactus {
+    display: none;
+  }
+}
+
+
+#phone {
+
+margin : 10px;
+margin-left : auto;
+color : white;
+font-weight : bold;
+font-size : 130%;
+
+}
+
+#num {
+
+
+color : #33cc99;
+text-decoration : none;
+
+
+
+}
+
+#greenc {
+
+
+display : none;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  #phone {
+    display: none;
+   
+  }
+  
+  #greenc {
+  
+  display : block;
+  margin : 10px;
+  margin-left : auto;
+  background-color : #33cc99;
+  height:60px;
+  width : 60px;
+  border-radius : 50%;
+  
+  }
+  
+  #later {
+  
+  position :relative;
+  left:7px;
+  top:3px;
+  }
+} */
+
+#nocolor {
+
+color : black !important;
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    25% {
+        transform: scale(1.5,1.5);
+    }
+    50% {
+        transform: scale(1.8,1.8);
+    }
+    100% {
+        transform: scale(2,2);
+    }
+}
+
+
+
+#mainpic2 {
+ 
+  height: 560px;
+  width:100%;
+  position: relative;
+  animation-name:zoominoutsinglefeatured;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  
+}
+
+#showss {
+position:absolute;
+top:200px;
+z-index :2;
+font-weight : bold;
+ background: inherit;
+  background-clip: text;
+  color: transparent;
+filter: invert(1) grayscale(1) contrast(9)
+width:auto;
+height:auto;
+color:white;
+
+
+}
+
+#card1{
+
+
+position : absolute;
+top:310px;
+z-index :2;
+
+
+}
+
+.card{
+
+border-bottom : none !important;
+
+}
+
+.card-title {
+
+font-size : 200% !important;
+
+font-weight: bold !important;
+
+}
+
+a {
+
+text-decoration : none;
+}
+
+#himself {
+
+background-color : #0D6EFD;
+
+}
+
+#him {
+
+width : 100%;
+background-color : #33cc99;
+margin-top : 20px;
+padding-top : 10px;
+
+
+
+
+}
+
+#hackman1 {
+
+	border-top-left-radius : 25% !important;
+	border-top-right-radius : 25% !important;
+	border-bottom-left-radius : 25% !important;
+	border-bottom-right-radius : 25% !important;
+margin-top : 30px;
+
+}
+
+#aboutcom {
+
+text-align : center;
+font-size : 150% !important;
+color : #0D6EFD;
+font-weight: bold !important;
+margin-top : 10px;
+background-color : white;
+border : none;
+
+
+}
+
+#usback {
+
+background-color : #F0F0F0;
+margin :0px;
+position: relative;
+top:-17px;
+
+
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+#place {
+
+margin-top : 20px;
+
+}
+
+#conhack {
+
+text-align : center;
+font-size : 200% !important;
+color : #0D6EFD;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+#address {
+
+background-color : #33cc99;
+margin: 10px;
+
+}
+
+#hours{
+
+background-color : #0D6EFD;
+margin : 10px;
+
+}
+
+.bluee {
+
+text-align : center;
+font-size : 200% !important;
+color : white;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.road {
+
+text-align : center;
+font-size : 120% !important;
+color : black;
+font-weight: bold !important;
+margin-top : 3px;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+#other {
+
+text-align : center;
+font-size:70%;
+}
+
+.timee {
+
+float : right;
+font-weight : bold;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.days {
+
+font-weight : bold;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.details {
+
+width : 50%;
+
+
+
+}
+
+#conhack2 {
+
+text-align : center;
+font-size : 200% !important;
+color :#33CC99;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+#nothing {
+
+text-align : center;
+color : red;
+
+}
+
+#go {
+
+margin-top : 10px;
+
+}
+
+#conhack3 {
+
+text-align : center;
+font-size : 200% !important;
+color :#0D6EFD;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+.serve {
+
+max-height : 600px;
+
+
+}
+
+.job1 {
+
+display : none;
+
+
+}
+
+@media screen and (max-width: 765px) {
+  .job1 {
+    display: block !important;
+    position:relative;
+top: -50px;
+text-align : center;
+color : white;
+font-weight : bold;
+font-size : 150%;
+
+
+
+   
+  }}
+  
+#butfirst {
+
+background-color : #0D6EFD;
+
+
+}
+
+.foot {
+
+
+text-align : center;
+font-size : 150% !important;
+color :white;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+border-bottom : 3px #33cc99 solid;
+}
+
+#need {
+display : none;
+
+}
+
+@media screen and (max-width: 506px) {
+  .foot {
+  
+      border-bottom : none;
+ 
+  }
+  #need {
+  
+  display : block;
+  background-color : white;
+  
+  
+  }
+ #lineline {
+width : 100%;
+color : #33cc99;
+height : 3px;
+position : relative;
+top : 105px;
+opacity : 1;
+
+
+}
+ 
+ }
+
+
+
+
+.taxx {
+
+font-weight : bold;
+color : black;
+
+
+
+}
+
+.social {
+margin-top : 20px;
+margin-right: 20px;
+height :30px;
+margin-bottom : 10px;
+
+}
+
+.lastone {
+
+text-align : center;
+
+
+}
+
+#bluetext {
+
+color : #1CA3FF;
+
+}
+
+
+
+
+

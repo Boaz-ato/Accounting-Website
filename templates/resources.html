@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'css/main8.css')}}">
+    
+    
+
+    <title>Hackman & CO Chartered Certified Accountants</title>
+    <link rel="icon"  href="static/annual-report(2).png">
+  </head>
+  <body>
+<nav class="navbar  fixed-top navbar-dark bg-primary" id="see">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{url_for('home')}}">
+    <p id="name"><img src="static/annual-report(2).png" alt="" width="50" height="40" class="d-inline-block align-text-top">
+     Hackman & CO  Chartered <br> <span id="hmm">Certified Accountants </span></p>
+    <p id="bus">The Accountancy and Tax Service for small Business</p>
+    </a>
+    
+  
+     <button id="all" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    
+    
+    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <a href="{{url_for('home')}}" id="nocolor"> <h5 id="canleft"class="offcanvas-title" id="offcanvasNavbarLabel">Hackman & Co chartered Certified Accountants</h5></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div id="everyleft" class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active nav-me" id="nav-me1" aria-current="page" href="{{url_for('home')}}">Home</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-me" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item nav-me" href="{{url_for('accounting')}}">Accounting</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('tax')}}">Tax</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('payroll')}}">Payroll</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('business_advice')}}">Business advice</a></li>
+              
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('other_services')}}">Other Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me2" href="{{url_for('aboutus')}}">About Us</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me" id="nav-me3"  href="{{url_for('resources')}}">Resoures</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me4"  href="{{url_for('contactus')}}">Contact Us</a>
+          </li>
+        </ul>
+          
+       
+      </div>
+    </div>
+ 
+   
+  </div>
+</nav>
+
+<div class="container">
+<p id="conhack56"> Articles </p>
+</div>
+
+
+<div class="card mb-3 container bg-dark" id="article1" style="width: 70%;">
+  <img src="static/article111.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title unseen">Pragmatic Realities of Bitcoin and Crypto-Investing</h5>
+    <p class="card-text unseen">In Brief Although many investors in cryptocurrencies like Bitcoin have witnessed great gains in the past year, values have also fluctuated dramatically in short order.… </p>
+    <a href="https://www.cpajournal.com/2021/08/09/pragmatic-realities-of-bitcoin-and-crypto-investing/" target ="blank" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="card-group" id="carddown">
+  <div class="card cardss ">
+    <img src="static/article3.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">ICYMI | Tax Software in the COVID-19 Environment</h5>
+      <p class="card-text unseen">In Brief The 2020 tax season was unlike any other, with a global pandemic requiring virtually all tax preparers to work from home, often while… </p>
+      <a href="https://www.cpajournal.com/2021/04/15/icymi-tax-software-in-the-covid-19-environment/" target ="blank" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+  <div class="card cardss ">
+    <img src="static/article4.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">ICYMI | From the Big Four to Small Entrepreneurship</h5>
+      <p class="card-text unseen">What made me want to become a CPA? Well, I have to acknowledge that the 18-year-old me was neither wise nor worldly. When I matriculated… </p>
+      <a href="https://www.cpajournal.com/2021/02/04/icymi-from-the-big-four-to-small-entrepreneurship/" target ="blank" class="btn btn-primary">Read More</a>
+      
+    </div>
+  </div>
+ 
+</div>
+
+
+
+<div class="card-group" >
+  <div class="card cardss cardsss" >
+    <img src="static/article5.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">Now Is the Time to Operationally Split Audit and Nonaudit Services</h5>
+      <p class="card-text unseen">In Brief Performing certain nonaudit services for audit clients can impair independence. Misrepresenting nonaudit services as immaterial and mischaracterizing them as audit services obscures the…  </p>
+      <a href="https://www.cpajournal.com/2020/12/01/now-is-the-time-to-operationally-split-audit-and-nonaudit-services/" target="blank" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+  <div class="card cardss cardsss">
+    <img src="static/article8.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">ICYMI | The Volkswagen Diesel Emissions Scandal and Accountability</h5>
+      <p class="card-text unseen"> In Brief The effects of corporate scandals can reverberate for years. Volkswagen, whose conspiracy to hide the emissions of its diesel engine vehicles was first…  </p>
+      <a href="https://www.cpajournal.com/2020/08/20/icymi-the-volkswagen-diesel-emissions-scandal-and-accountability/" target ="blank" class="btn btn-primary">Read More</a>
+      
+    </div>
+  </div>
+ 
+</div>
+
+
+
+<div class="card-group" >
+  <div class="card cardss cardsss">
+    <img src="static/article6.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">ICYMI | Tax Software in the COVID-19 Environment</h5>
+      <p class="card-text unseen">In Brief The 2020 tax season was unlike any other, with a global pandemic requiring virtually all tax preparers to work from home, often while… </p>
+      <a href="https://www.cpajournal.com/2021/04/15/icymi-tax-software-in-the-covid-19-environment/" target ="blank" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+  <div class="card cardss cardsss">
+    <img src="static/article7.jpg" class="card-img-top plsimg" alt="...">
+    <div class="card-body bg-dark">
+      <h5 class="card-title unseen">Valuable Credential Opportunities for Contemporary Accounting Professionals</h5>
+      <p class="card-text unseen">In Brief The number and variety of specialty credentials available to accountants continue to grow. When planning their career paths, CPAs should consider the opportunities… </p>
+      <a href="https://www.cpajournal.com/2020/11/01/valuable-credential-opportunities-for-contemporary-accounting-professionals/" target ="blank" class="btn btn-primary">Read More</a>
+      
+    </div>
+  </div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container" id="callnow">
+
+<p  id="conhack15">See how Hackman & CO Chartered certified Accountants can help you with a free, no obligation consultation</p>
+<p id="conhack16"> <a href="tel:07469731604">07469731604 </a></p>
+<div id="gh">
+<a href="{{url_for('contactus')}}" id="clickk"><button type="button" class="btn btn-dark" id="orr">or contact us</button></a></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="allbottom">
+<div class="container-fluid" id="butfirst">
+<div class="row">
+<div id="need"><hr id="lineline"></div>
+<div class="col-4">
+
+<p class="foot"> Our Services </p>
+
+<a href="{{url_for('accounting')}}"><p class="taxx">Acounting </p></a>
+<a href="{{url_for('payroll')}}"><p class="taxx">Payroll </p></a>
+<a href="{{url_for('business_advice')}}"><p class="taxx">Business advice </p></a>
+<a href="{{url_for('other_services')}}"><p class="taxx">Other Services </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('aboutus')}}"><p class="foot"> About Us </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('resources')}}"><p class="foot"> Resources </p></a>
+</div>
+
+</div>
+
+<p> <a href="https://en-gb.facebook.com/" target="blank"><img class="social" src="static/834722_facebook_icon.png"></a> <a href="https://twitter.com/?lang=en-gb" target="blank"><img class="social" src="static/317720_social media_tweet_twitter_social_icon.png"></a> </p>
+
+</div>
+
+<div class="container">
+
+<a href="{{url_for('privacy')}}"><p class="lastone"> Privacy policy </p></a>
+<p class="lastone" id="bluetext"> Copyright <img src="static/copy.png"> 2021 Hackman & CO Chartered Certified Accountants </p>
+<p class="lastone">A Hackman & CO Chartered Certified Accountants owned and operated under licence by Zubair Patel & Raiyhana Noorgat VAT Registration No. 252 7805 96 </p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+ 
+ 
+<script type="text/javascript">
+ 
+
+ $('.plsimg').hover(function(){
+ 
+ 
+ 
+ 
+     $(this).toggleClass('bigman')
+ 
+ 
+ 
+ })
+ 
+ 
+ 
+ 
+ 
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+   
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'css/main10.css')}}">
+    
+    
+
+    <title>Hackman & CO Chartered Certified Accountants</title>
+    <link rel="icon"  href="static/annual-report(2).png">
+  </head>
+  <body>
+<nav class="navbar  fixed-top navbar-dark bg-primary" id="see">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{url_for('home')}}">
+    <p id="name"><img src="static/annual-report(2).png" alt="" width="50" height="40" class="d-inline-block align-text-top">
+     Hackman & CO  Chartered <br> <span id="hmm">Certified Accountants </span></p>
+    <p id="bus">The Accountancy and Tax Service for small Business</p>
+    </a>
+    
+  
+     <button id="all" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    
+    
+    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <a href="{{url_for('home')}}" id="nocolor"> <h5 id="canleft"class="offcanvas-title" id="offcanvasNavbarLabel">Hackman & Co chartered Certified Accountants</h5></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div id="everyleft" class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active nav-me" id="nav-me1" aria-current="page" href="{{url_for('home')}}">Home</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-me" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item nav-me" href="{{url_for('accounting')}}">Accounting</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('tax')}}">Tax</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('payroll')}}">Payroll</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('business_advice')}}">Business advice</a></li>
+              
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('other_services')}}">Other Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me2" href="{{url_for('aboutus')}}">About Us</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me" id="nav-me3"  href="{{url_for('resources')}}">Resoures</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me4"  href="{{url_for('contactus')}}">Contact Us</a>
+          </li>
+        </ul>
+          
+       
+      </div>
+    </div>
+ 
+   
+  </div>
+</nav>
+
+<div class="container" id="pridown">
+
+<p id="conhack202"> How we will use your personal data</p>
+
+<p class="writing"> We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:</p>
+
+<ul>
+
+<li class="writing">Where we need to perform the contract we are about to enter into or have entered into with you.</li>
+<li class="writing">Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li>
+<li class="writing">Where we need to comply with a legal or regulatory obligation.</li>
+
+<p class="writing">Generally we do not rely on consent as a legal basis for processing your personal data other than in relation to sending third party direct marketing communications to you via email or text message. You have the right to withdraw consent to marketing at any time by <a href="{{url_for('contactus')}}">contacting us.</a></p>
+
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<div id="allbottom">
+<div class="container-fluid" id="butfirst">
+<div class="row">
+<div id="need"><hr id="lineline"></div>
+<div class="col-4">
+
+<p class="foot"> Our Services </p>
+
+<a href="{{url_for('accounting')}}"><p class="taxx">Acounting </p></a>
+<a href="{{url_for('payroll')}}"><p class="taxx">Payroll </p></a>
+<a href="{{url_for('business_advice')}}"><p class="taxx">Business advice </p></a>
+<a href="{{url_for('other_services')}}"><p class="taxx">Other Services </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('aboutus')}}"><p class="foot"> About Us </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('resources')}}"><p class="foot"> Resources </p></a>
+</div>
+
+</div>
+
+<p> <a href="https://en-gb.facebook.com/" target="blank"><img class="social" src="static/834722_facebook_icon.png"></a> <a href="https://twitter.com/?lang=en-gb" target="blank"><img class="social" src="static/317720_social media_tweet_twitter_social_icon.png"></a> </p>
+
+</div>
+
+<div class="container">
+
+<a href="{{url_for('privacy')}}"><p class="lastone"> Privacy policy </p></a>
+<p class="lastone" id="bluetext"> Copyright <img src="static/copy.png"> 2021 Hackman & CO Chartered Certified Accountants </p>
+<p class="lastone">A Hackman & CO Chartered Certified Accountants owned and operated under licence by Zubair Patel & Raiyhana Noorgat VAT Registration No. 252 7805 96 </p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>

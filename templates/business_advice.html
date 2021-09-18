@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+   
+ 
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'css/main1.css')}}">
+    
+    
+
+    <title>Hackman & CO Chartered Certified Accountants</title>
+    <link rel="icon"  href="static/annual-report(2).png">
+  </head>
+  <body>
+<nav class="navbar  fixed-top navbar-dark bg-primary" id="see">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{url_for('home')}}">
+    <p id="name"><img src="static/annual-report(2).png" alt="" width="50" height="40" class="d-inline-block align-text-top">
+     Hackman & CO  Chartered <br> <span id="hmm">Certified Accountants </span></p>
+    <p id="bus">The Accountancy and Tax Service for small Business</p>
+    </a>
+    
+  
+     <button id="all" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    
+    
+    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <a href="{{url_for('home')}}" id="nocolor"> <h5 id="canleft"class="offcanvas-title" id="offcanvasNavbarLabel">Hackman & Co chartered Certified Accountants</h5></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div id="everyleft" class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active nav-me" id="nav-me1" aria-current="page" href="{{url_for('home')}}">Home</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-me" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item nav-me" href="{{url_for('accounting')}}">Accounting</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('tax')}}">Tax</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('payroll')}}">Payroll</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('business_advice')}}">Business advice</a></li>
+              
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('other_services')}}">Other Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me2" href="{{url_for('aboutus')}}">About Us</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me" id="nav-me3"  href="{{url_for('resources')}}">Resoures</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me4"  href="{{url_for('contactus')}}">Contact Us</a>
+          </li>
+        </ul>
+          
+       
+      </div>
+    </div>
+ 
+   
+  </div>
+</nav>
+
+<div class="container-fluid">
+
+<div class="row" id="servicetop">
+
+<div class="col-6">
+
+<img id="rot" src="static/business.jpg" class="img-fluid work"  alt="...">
+
+</div>
+
+<div class="col-6 work" >
+<h1 id="firsthead"> Business Advice </h1>
+<p id="firstdes"> At Hackman & CO Chartered Certified Accountants,we can assist you with business planning, cashflow forecasts and starting your business</p>
+<p id="seconddes">We can assist you with business planning, cashflow forecasts and starting your business </p>
+</div>
+</div>
+</div>
+
+<div class="container" id="desription">
+
+<p class="infoinfo">A good business idea needs a good business plan with sound financial information and a strategy to make the idea become a reality. </p> 
+<br>
+<br>
+<p class="infoinfo">Most start-up businesses will need funding and a business plan not only allows you to see if the idea can be profitable but it also allows a bank or any other lending provider to understand your idea and how the business will shape itself.</p>
+
+<p class="infoinfo"> Business plans need to be clear but should explain:  </p>
+<ul>
+    <li class="infoinfo"> <p class="listall">The line of work you are going to be in</p></li>
+    <li class="infoinfo"><p class="listall">The gap in the market</p></li>
+    <li class="infoinfo"><p class="listall">Where you will fit in this marketplace</p></li>
+    <li class="infoinfo"><p class="listall">What the goals and objectives of the business will be </p></li>
+    <li class="infoinfo"><p class="listall">What your unique selling points are </p></li>
+    
+</ul>
+
+<p class="infoinfo">If you are seeking funding or looking to attract investors in to your business, you will need to present a convincing image of how your business will look.</p>
+<p class="infoinfo">If you are seeking funding or looking to attract investors in to your business, you will need to present a convincing image of how your business will look.</p>
+<p class="infoinfo">At Hackman & CO Chartered certified Accountancy , we know exactly what information is required and how it can be presented. This will provide you with a better chance of success when it comes to receiving funding for your business.</p>
+<p class="infoinfo">If you are looking to create and present a credible and professional business plan then talk to our accountants today. Our accountants can work with you to make it clear your intentions to start your business in the right manner.</p> 
+<br>
+<br>
+<p  id="conhack10">Join us in three easy steps</p>
+</div>
+
+
+<div class="card-group" id="comeus">
+  <div class="card">
+   <a href="{{url_for('contactus')}}">  <img src="static/come.jpg" class="card-img-top easy" alt="..."> </a>
+    <div class="card-body">
+      <h5 class="card-title">Get in touch</h5>
+      <p class="card-text">Arrange a free consultation in person or via video with an accountant. It’s an informal chat to get to know you and find out more about the help you are looking for.</p>
+     
+    </div>
+  </div>
+  
+  <div class="card">
+   <a href="{{url_for('contactus')}}"> <img src="static/chat.jpg" class="card-img-top easy" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">Chat to an expect</h5>
+      <p class="card-text">We clearly explain the support available to you and are happy to act as business advisors in order to help you grow your business.</p>
+      
+    </div>
+  </div>
+  
+  <div class="card">
+    <a href="{{url_for('contactus')}}"> <img src="static/pay.jpg" class="card-img-top easy" alt="..."> </a>
+    <div class="card-body">
+      <h5 class="card-title">Get a fixed quote</h5>
+      <p class="card-text">Our fees are fixed and tailored specifically to each individual's needs, so that you only pay for the level of support and services that you require. </p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div id="slidess">
+
+<p  id="conhack11">Our other Services</p>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
+  </div>
+  <div class="carousel-inner container">
+  
+    
+    
+    
+    <div class="carousel-item ">
+     <a href="{{url_for('tax')}}"> <img src="static/markus-winkler-Ber3q-zEhd4-unsplash.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Tax</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Tax</h5>
+        <p>Our tax service ranges from personal tax returns,partnership tax returns,ompany corporation tax returns, VAT Returns,Capital Gain Tax,CIS refunds and personal & business tax planning.</p>
+      </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <a href="{{url_for('payroll')}}"><img src="static/budget.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Payroll</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Payroll</h5>
+        <p>Our dedicated team provides payroll services to a wide range of clients.</p>
+      </div>
+    </div>
+    
+     <div class="carousel-item active ">
+      <a href="{{url_for('accounting')}}"><img src="static/kelly-sikkema-xoU52jUVUXA-unsplash.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Accounting</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Accounting</h5>
+        <p>We provide accounting services to a wide range of clients ranging from a small businesses to multi-million pounds companies.</p>
+      </div>
+    </div>
+    
+     <div class="carousel-item">
+      <a href="{{url_for('other_services')}}"><img src="static/other_services.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Other services</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Other services</h5>
+        <p>We provide the following services : Comapny formations,VAT and PAYE registration, Self employment and self-assessment registration, pension auto-enrollment and pension sheme set-up.</p>
+      </div>
+    </div>
+    
+    
+     
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="container" id="callnow">
+
+<p  id="conhack15">See how Hackman & CO Chartered certified Accountants can help you with a free, no obligation consultation</p>
+<p id="conhack16"> <a href="tel:07469731604">07469731604 </a></p>
+<div id="gh">
+<a href="{{url_for('contactus')}}" id="clickk"><button type="button" class="btn btn-dark" id="orr">or contact us</button></a></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="allbottom">
+<div class="container-fluid" id="butfirst">
+<div class="row">
+<div id="need"><hr id="lineline"></div>
+<div class="col-4">
+
+<p class="foot"> Our Services </p>
+
+<a href="{{url_for('accounting')}}"><p class="taxx">Acounting </p></a>
+<a href="{{url_for('payroll')}}"><p class="taxx">Payroll </p></a>
+<a href="{{url_for('business_advice')}}"><p class="taxx">Business advice </p></a>
+<a href="{{url_for('other_services')}}"><p class="taxx">Other Services </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('aboutus')}}"><p class="foot"> About Us </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('resources')}}"><p class="foot"> Resources </p></a>
+</div>
+
+</div>
+
+<p> <a href="https://en-gb.facebook.com/" target="blank"><img class="social" src="static/834722_facebook_icon.png"></a> <a href="https://twitter.com/?lang=en-gb" target="blank"><img class="social" src="static/317720_social media_tweet_twitter_social_icon.png"></a> </p>
+
+</div>
+
+<div class="container">
+
+<a href="{{url_for('privacy')}}"><p class="lastone"> Privacy policy </p></a>
+<p class="lastone" id="bluetext"> Copyright <img src="static/copy.png"> 2021 Hackman & CO Chartered Certified Accountancy </p>
+<p class="lastone">A Hackman & CO Chartered Certified Accountants owned and operated under licence by Zubair Patel & Raiyhana Noorgat VAT Registration No. 252 7805 96 </p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,500 @@
+
+#see{
+
+background: linear-gradient(110deg, #33cc99 20%, #0D6EFD 20%);
+
+}
+
+p{
+
+font-family: 'Roboto Mono', monospace;
+
+
+}
+
+#name{
+
+font-size:100%;
+margin-right : 50px;
+
+}
+
+#bus{
+
+font-size:50%;
+
+}
+
+#all {
+
+background-color : #33cc99;
+
+}
+
+
+#canleft {
+
+
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+
+
+
+}
+
+#everyleft {
+
+background-color: #e6ebf2;
+
+}
+
+#hmm {
+
+margin-left: 100px;
+
+}
+
+#nav-me1 {
+
+color : black;
+font-size : 130%;
+font-family: 'Urbanist', sans-serif;
+font-weight: bold;
+}
+
+#offcanvasNavbarDropdown{
+
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+
+
+}
+
+
+
+#nav-me2 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+#nav-me3 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+#nav-me4 {
+
+color : black;
+font-size : 130%;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+
+
+#nocolor {
+
+color : black !important;
+text-decoration : none !important;
+}
+
+a {
+
+text-decoration : none !important;
+
+}
+
+
+
+#conhack2 {
+
+text-align : center;
+font-size : 270% !important;
+color : #048EEC;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+#coninfo {
+
+
+position : relative;
+top : 200px;
+
+
+}
+
+#coninfo2 {
+
+text-align : center;
+font-size : 120%;
+
+}
+
+#coninfo3{
+
+font-family: 'Open Sans', sans-serif;
+text-align : center;
+
+}
+
+.details {
+
+width : 50%;
+
+
+
+}
+
+.nothing {
+
+text-align : center;
+color : red;
+
+}
+
+
+#formform {
+
+position : relative;
+top : 250px;
+z-index : 10;
+
+
+
+}
+
+
+#go {
+
+margin-top : 20px;
+
+}
+
+#callnow {
+
+position : relative;
+top : 300px;
+
+}
+
+
+#consult {
+
+text-align : center;
+font-size : 150% !important;
+color : #048EEC;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+#consult2 {
+
+
+
+color : #33CC99 !important;
+
+margin-top : 10px;
+
+
+
+}
+
+
+
+#consult3 {
+
+
+text-align : center;
+font-size : 150% !important;
+font-weight: bold !important;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+#conhack56{
+
+text-align : center;
+font-size : 200% !important;
+color : #0D6EFD;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+position : relative;
+top : 200px;
+}
+
+#article1 {
+
+
+
+
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1.5,1.5);
+    }
+   
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+
+
+#article1 {
+ 
+ 
+  
+  position : relative;
+  top : 230px;
+  animation-name:zoominoutsinglefeatured;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  
+}
+
+#carddown {
+
+position :relative;
+top : 300px;
+
+}
+
+
+.unseen {
+
+color : white;
+
+}
+
+
+
+
+
+
+
+.bigman {
+
+ animation-name:inout;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+ 
+
+}
+
+
+@keyframes inout {
+    0% {
+        transform: scale(1,1);
+    }
+   
+    50% {
+        transform: scale(1.2);
+    }
+    
+}
+
+
+
+.cardsss {
+
+position : relative;
+top : 300px;
+margin-top : 50px;
+
+
+
+}
+
+
+
+
+#conhack15 {
+
+text-align : center;
+font-size : 150% !important;
+color : #002B47;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+#conhack16 {
+
+text-align : center;
+font-size : 200% !important;
+color : #0D6EFD;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+#callnow {
+
+position : relative;
+top : 300px;
+margin-top : 100px;
+height : 250px;
+
+
+
+}
+
+
+
+#gh {
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+border : none;
+position : relative;
+top : -50px;
+
+}
+
+#orr {
+
+height : 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#allbottom {
+
+position : relative;
+top : 400px;
+
+
+}
+
+
+#butfirst {
+
+background-color : #0D6EFD;
+
+
+
+}
+
+.foot {
+
+
+text-align : center;
+font-size : 150% !important;
+color :white;
+font-weight: bold !important;
+margin-top : 10px;
+font-family: 'Roboto', sans-serif;
+border-bottom : 3px #33cc99 solid;
+}
+
+#need {
+display : none;
+
+}
+
+@media screen and (max-width: 506px) {
+  .foot {
+  
+      border-bottom : none;
+ 
+  }
+  #need {
+  
+  display : block;
+  background-color : white;
+  
+  
+  }
+ #lineline {
+width : 100%;
+color : #33cc99;
+height : 3px;
+position : relative;
+top : 105px;
+opacity : 1;
+
+
+}
+ 
+ }
+
+.taxx {
+
+font-weight : bold;
+color : black;
+
+
+
+}
+
+.social {
+margin-top : 20px;
+margin-right: 20px;
+height :30px;
+margin-bottom : 10px;
+
+}
+
+.lastone {
+
+text-align : center;
+
+
+}
+
+#bluetext {
+
+color : #1CA3FF;
+
+}

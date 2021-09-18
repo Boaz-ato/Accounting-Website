@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+   
+ 
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'css/main.css')}}">
+    
+    <script src="{{url_for('static', filename = 'javascript/index.js')}}"></script>
+
+    <title>Hackman & CO Chartered Certified Accountants </title>
+    <link rel="icon"  href="static/annual-report(2).png">
+  </head>
+  <body>
+<nav class="navbar  fixed-top navbar-dark bg-primary" id="see">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{url_for('home')}}">
+    <p id="name"><img src="static/annual-report(2).png" alt="" width="50" height="40" class="d-inline-block align-text-top">
+     Hackman & CO  Chartered <br> <span id="hmm">Certified Accountants </span></p>
+    <p id="bus">The Accountancy and Tax Service for small Business</p>
+    </a>
+    
+   <!-- <p id="phone"> Call us today: <a href="tel:07474837473" id="num">0778594937589</a></p>
+    <div id="greenc">
+    <a href="tel:07469731604" id="later">
+    <img src="static/outline_call_black_24dp.png">
+    </a>
+    </div>
+    
+    <button type="button" class="btn btn-success" id="contactus">Contant Us</button> -->
+    
+     <button id="all" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    
+    
+    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <a href="{{url_for('home')}}" id="nocolor"> <h5 id="canleft"class="offcanvas-title" id="offcanvasNavbarLabel">Hackman & Co chartered Certified Accountants</h5></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div id="everyleft" class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active nav-me" id="nav-me1" aria-current="page" href="{{url_for('home')}}">Home</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-me" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item nav-me" href="{{url_for('accounting')}}">Accounting</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('tax')}}">Tax</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('payroll')}}">Payroll</a></li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('business_advice')}}">Business advice</a></li>
+              
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item nav-me" href="{{url_for('other_services')}}">Other Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me2" href="{{url_for('aboutus')}}">About Us</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me" id="nav-me3"  href="{{url_for('resources')}}">Resources</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link nav-me"  id="nav-me4"  href="{{url_for('contactus')}}">Contact Us</a>
+          </li>
+        </ul>
+          
+       
+      </div>
+    </div>
+ 
+   
+  </div>
+</nav>
+
+
+<div class="container-fluid" id="mainpic">
+
+
+<p id="showss" class="h1"> Welcome to Hackman & CO <br>Chartered Certified Accountants</p>
+
+<div class="card text-white bg-dark mb-3"  id ="card1" style="max-width: 18rem;">
+  
+  <div class="card-body">
+    
+    <p class="card-text">The tax and accountancy service that reflects the way we all work today. Offering you expect business advice and support.</p>
+   <p> <a href="{{url_for('aboutus')}}"> <button type="button" class="btn btn-light" >About Us</button></a>
+   <a  href="{{url_for('contactus')}}">  <button type="button" class="btn btn-light">Contact Us</button></a></p>
+  </div>
+</div>
+
+
+
+<img src="static/pat-whelen-Rxt252RzQlY-unsplash.jpg" class="img-fluid" id="mainpic2">
+
+</div>
+
+
+<div class="card-group" id="card-three">
+  <div class="card">
+   <a href="{{url_for('contactus')}}"> <img src="static/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Get in touch</h5></a>
+      <p class="card-text">Call us on 0800 990 849 to arrange a consultation by telephone.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <a href="{{url_for('contactus')}}"><img src="static/maya-maceka-yW-Qgw_IJXg-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Meet online</h5> </a>
+      <p class="card-text">Arrange a free video consultation with an accountant expert.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <a href="{{url_for('contactus')}}"><img src="static/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Visit Us</h5></a>
+      <p class="card-text">Pop into our office for a meeting in person.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fliud" id="himself">
+<div class="card mb-3 container-fluid"  id="him"style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/etty-fidele-VNYCIbZju0o-unsplash.jpg" id="hackman1" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <img src="static/baseline_format_quote_black_24dp.png" class="img-fluid rounded-start" alt="...">
+        <p class="card-text">Our real passion is helping our clients' businesses thrive. Whether we're advising on tax savings or providing their payroll and bookkeeping need, we believe we play a supporting role in their success. We look forward to meeting new clients and learning all about their future plans.</p>
+        <p class="card-text"><small class="text-muted">Hackman and CO Chartered Certified Accountants </small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid" id="usback">
+
+<div class="card">
+  <div class="card-header" id="aboutcom">
+    About Hackman & Co Chartered Certified Accountants
+  </div>
+  <div class="card-body" id="usin">
+    
+    <p class="card-text">At Hackman & CO Chartered Certified Accountants, we provide a personal and professional accounting service tailored to you. We halp startups,sole traders, partnerships, limited comapnies,property landlords, contractors,freelancers and individual taxpayers.<br>
+    If you are looking to find an accountant who will allow you to spend more time doing what you do best then contact us today. We provide all the services you would expect from an accountant, including accounts,tax, payroll, business advice and much more. Whatever business you operate,our advisors will guide you every step of the way.</p>
+   
+  </div>
+</div>
+</div>
+
+
+<div id="map"></div>
+<p  id="conhack">Contact US</p>
+<div class="card-group container" id="place">
+  <div class="card" id="address">
+    
+    <div class="card-body">
+      <h5 class="card-title bluee">Address</h5>
+      <p class="road">184 Crecent Road</p>
+      <p class="road">Dagenham</p>
+      <p class="road">RM10 7YT</p>
+      <a href="tel:07469731604"><h5 class="card-title bluee">Phone</h5>
+      <p class="road">09866485789</p></a>
+     
+      
+    
+    </div>
+  </div>
+  <div class="card" id="hours">
+  
+    <div class="card-body">
+      <h5 class="card-title bluee">Opening hours</h5>
+      <p id="other"> Other times available by appointment </p>
+      <p><span class="days">Monday</span><span class="timee">09:30 - 17:30</span></p>
+      <p><span class="days">Tuesday</span><span class="timee">09:30 - 17:30</span></p>
+      <p><span class="days">Wednesday</span><span class="timee">09:30 - 17:30</span></p>
+      <p><span class="days">Thursday</span><span class="timee">09:30 - 17:30</span></p>
+      <p><span class="days">Friday</span><span class="timee">09:30 - 17:30</span></p>
+      <p><span class="days">Saturday</span><span class="timee">Closed</span></p>
+      <p><span class="days">Sunday</span><span class="timee">Closed</span></p>
+     
+    </div>
+  </div>
+  
+</div>
+<p  id="conhack2">Contact US</p>
+
+<form action="{{url_for('thank_you')}}", method="POST">
+
+{% if message %}
+
+    <p id="nothing">{{message}}</p>
+
+
+{% endif %}
+
+
+<div class="mb-3 details container">
+  <label for="name1" class="form-label">Name</label>
+  <input type="text" class="form-control" id="name1" name="name1">
+</div>
+
+<div class="mb-3 details container">
+  <label for="email1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="email1" name="email1">
+</div>
+
+<div class="mb-3 details container">
+  <label for="phone1" class="form-label">Phone Number</label>
+  <input type="text" class="form-control" id="phone1" name="phone1" >
+</div>
+
+
+<div class="mb-3 details container">
+  <label for="exampleFormControlTextarea1" class="form-label">How an we help you ?</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg1"></textarea>
+  <button type="submit" class="btn btn-primary" id="go">Submit</button>
+</div>
+</form>
+
+<p  id="conhack3">Our Services</p>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner container">
+  
+    <div class="carousel-item active">
+      <a href="{{url_for('accounting')}}"><img src="static/kelly-sikkema-xoU52jUVUXA-unsplash.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Accounting</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Accounting</h5>
+        <p>We provide accounting services to a wide range of clients ranging from a small businesses to multi-million pounds companies.</p>
+      </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+     <a href="{{url_for('tax')}}"> <img src="static/markus-winkler-Ber3q-zEhd4-unsplash.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Tax</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Tax</h5>
+        <p>Our tax service ranges from personal tax returns,partnership tax returns,ompany corporation tax returns, VAT Returns,Capital Gain Tax,CIS refunds and personal & business tax planning.</p>
+      </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <a href="{{url_for('payroll')}}"><img src="static/budget.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Payroll</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Payroll</h5>
+        <p>Our dedicated team provides payroll services to a wide range of clients.</p>
+      </div>
+    </div>
+    
+     <div class="carousel-item">
+      <a href="{{url_for('business_advice')}}"><img src="static/mediensturmer-aWf7mjwwJJo-unsplash.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Business advice</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Business advice</h5>
+        <p>We have suessfully helped our clients grow their businesses through our ongoing business advice and are always keen to find ways that lead to a successfully managed business.</p>
+      </div>
+    </div>
+    
+     <div class="carousel-item">
+      <a href="{{url_for('other_services')}}"><img src="static/other_services.jpg" class="d-block w-100 img-fluid serve" alt="..."></a>
+      <h5 class="job1">Other services</h5>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="job">Other services</h5>
+        <p>We provide the following services : Comapny formations,VAT and PAYE registration, Self employment and self-assessment registration, pension auto-enrollment and pension sheme set-up.</p>
+      </div>
+    </div>
+    
+    
+     
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container-fluid" id="butfirst">
+<div class="row">
+<div id="need"><hr id="lineline"></div>
+<div class="col-4">
+
+<p class="foot"> Our Services </p>
+
+<a href="{{url_for('accounting')}}"><p class="taxx">Acounting </p></a>
+<a href="{{url_for('payroll')}}"><p class="taxx">Payroll </p></a>
+<a href="{{url_for('business_advice')}}"><p class="taxx">Business advice </p></a>
+<a href="{{url_for('other_services')}}"><p class="taxx">Other Services </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('aboutus')}}"><p class="foot"> About Us </p></a>
+</div>
+
+<div class="col-4">
+<a href="{{url_for('resources')}}"><p class="foot"> Resources </p></a>
+</div>
+
+</div>
+
+<p> <a href="https://en-gb.facebook.com/" target="blank"><img class="social" src="static/834722_facebook_icon.png"></a> <a href="https://twitter.com/?lang=en-gb" target="blank"><img class="social" src="static/317720_social media_tweet_twitter_social_icon.png"></a> </p>
+
+</div>
+
+<div class="container">
+
+<a href="{{url_for('privacy')}}"><p class="lastone"> Privacy policy </p></a>
+<p class="lastone" id="bluetext"> Copyright <img src="static/copy.png"> 2021 Hackman & CO Chartered Certified Accountants </p>
+<p class="lastone">A Hackman & CO Chartered Certified Accountants owned and operated under licence by Zubair Patel & Raiyhana Noorgat VAT Registration No. 252 7805 96 </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+   
+
+ 
+   
+
+    
+
+     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCusRtv6vQNhH2J6gZrz8U7zXuwFrfM05s&callback=initMap&libraries=&v=weekly"async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>

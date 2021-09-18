@@ -1,0 +1,23 @@
+Dear Accountant,
+    You have received an enquiry from a potential client. The details of the enquiry are listed below.
+
+Name: ${NAME}
+Email: ${EMAIL}
+Telephone number: ${PHONE}
+Message: ${ENQUIRY}
+
+An automatic email has been sent to the client confirming you have received their message.
+
+Kind Regards,
+Hackman & CO Chartered Certified Accountancy.
+
+
+
+
+
+
+
+
+
+
+
