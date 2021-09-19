@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = empty-project-type
-recent_files = ['app.py', 'templates\\home.html', 'static\\css\\main.css', 'static\\css\\main1.css', 'templates\\accounting.html', 'templates\\other_services.html', 'static\\css\\main6.css', 'send_email.py']
+recent_files = ['templates\\accounting.html', 'templates\\privacy.html', 'static\\css\\main10.css', 'templates\\aboutus.html', 'templates\\business_advice.html', 'templates\\contactus.html', 'templates\\other_services.html', 'templates\\payroll.html', 'templates\\tax.html', 'templates\\thankyou.html', '.gitignore', 'Procfile']
 
 [main]
 version = 0.2.0
