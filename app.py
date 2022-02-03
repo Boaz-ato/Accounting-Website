@@ -27,8 +27,8 @@ def insert(name1,email1,phone1,message1):
 
 app = Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:atoato06@localhost/Clients'#creating a connection to the database created in postgres
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://ejvkvbweenjzsv:23a268364cda275c198d65d776417297d8c2dedf255362a4ce922654e2d7ce63@ec2-54-145-188-92.compute-1.amazonaws.com:5432/d2tmeh23ocr46p' 
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:atoato06@localhost/Clients'#creating a connection to the database created in postgres
+#app.config['SQLALCHEMY_DATABASE_URI']='postgresql://ejvkvbweenjzsv:23a268364cda275c198d65d776417297d8c2dedf255362a4ce922654e2d7ce63@ec2-54-145-188-92.compute-1.amazonaws.com:5432/d2tmeh23ocr46p' 
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
