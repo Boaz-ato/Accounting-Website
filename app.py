@@ -4,6 +4,8 @@ from send_email import send_email
 from send_email1 import  send_email1
 from flask_sqlalchemy import SQLAlchemy
 
+
+# The code below tries to access prosgres using psycopg2
 """def create_table():
     con = psycopg2.connect(host="localhost", database="Clients", user="postgres", password="********")
     cur = con.cursor()
