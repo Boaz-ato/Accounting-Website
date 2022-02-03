@@ -15,9 +15,9 @@ def send_email(name,email,phone,enquiry):
         
         
     template_content=template_reader("accountant.txt")
-    password="jNCCZakJUb2v9P5"
-    from_email="hackmanandco@gmail.com"
-    to_email="boazmicah2@gmail.com"  #hackman email address for business
+    password="**********"
+    from_email="*********@gmail.com"
+    to_email="*********@gmail.com"  #hackman email address for business
     subject="Enquiry from a potential client"
     gmail=smtplib.SMTP(host="smtp.gmail.com",port=587)
     gmail.starttls()
@@ -42,7 +42,7 @@ def send_email(name,email,phone,enquiry):
    
  
 
-#send_email("Boaz","boazmicah2@gmail.com","07469731604","I need money")
+
 
 
 
