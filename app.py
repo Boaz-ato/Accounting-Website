@@ -5,7 +5,7 @@ from send_email1 import  send_email1
 from flask_sqlalchemy import SQLAlchemy
 
 """def create_table():
-    con = psycopg2.connect(host="localhost", database="Clients", user="postgres", password="atoato06")
+    con = psycopg2.connect(host="localhost", database="Clients", user="postgres", password="********")
     cur = con.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS accountantsman22(name TEXT, email TEXT, phone TEXT, message TEXT)")
     con.commit()
@@ -13,7 +13,7 @@ from flask_sqlalchemy import SQLAlchemy
     con.close()
 
 def insert(name1,email1,phone1,message1):
-    con = psycopg2.connect(host="localhost", database="Clients", user="postgres", password="atoato06")
+    con = psycopg2.connect(host="localhost", database="Clients", user="postgres", password="*********")
     cur = con.cursor()
     cur.execute("INSERT INTO accountantsman(name,email,phone,password) VALUES(%s,%s,%s,%s)",(name1,email1,phone1,message1))
     con.commit()
@@ -27,7 +27,7 @@ def insert(name1,email1,phone1,message1):
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:atoato06@localhost/Clients'#creating a connection to the database created in postgres
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:***********@localhost/Clients'#creating a connection to the database created in postgres
 
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
