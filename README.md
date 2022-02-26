@@ -1,2 +1,2 @@
-# Accounting-Website
-## Visitors are able to book an appoitment.
+# Accounting Website
+## An accounting website and visitors can book appoinments.
